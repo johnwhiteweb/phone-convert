@@ -21,6 +21,7 @@ escaped chars: " " "-"
 
 
 sample body of text:
-extract and retun both nums:
+
+extract and return both numbers:
 
 lorem Proident 09-71456123 anim laborum mollit sit velit. 0509382456

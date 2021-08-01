@@ -57,5 +57,24 @@ const hc = ' --00-9382456 ';
 
 // testPhone(this)
     
+
+// $('#body1').text().contents().filter(function() {
+
+//     if(this.nodeType === 3){
+       
+//         for (let i = 0; i < this.length; i++) {
+           
+//             console.log(this);
+            
+//         }
+
+//     }
+ 
+//  })
+//    .wrap( "<a href=''></a>" )
+//    .end()
+//  .filter( "br" )
+//  .remove();
+
     
     });

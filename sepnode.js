@@ -11,8 +11,6 @@ const phone = new RegExp('^[0-9.-\s]?[0-9][0-9]');
 
 const el = document.querySelectorAll("div, p, li");
 
-
-
 el.forEach(function(i) {
     console.log(i.textContent);
     console.log(phone.test(i.textContent));

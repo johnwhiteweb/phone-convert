@@ -1,4 +1,5 @@
 //begin:
+
 jQuery(document).ready(function ($) {
 
     let bodyText = $('#departments').text(); //extract num
@@ -75,3 +76,5 @@ jQuery(document).ready(function ($) {
 
 
 });
+
+
