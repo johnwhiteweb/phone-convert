@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
         if ($(this).html().slice(0, 1) == 0 || $(this).html().slice(0, 1) == " ") {
 
             y = htmlString.split(' ').filter(w => w !== '');
-            
+            console.log();
             // split list words - if a word begins with a number - mark it
             // setter !
             testInfo(y);
@@ -27,14 +27,15 @@ jQuery(document).ready(function ($) {
                 
                 
                 function testInfo(x) {
-                console.log(x);
-               
-                const mobile = /^(?:0(?!5)(?:2|3|4|8|9))(?:-?\d){7}$|^(0(?=5)(?:-?\d){9})$/;
-                // const lendPhone = /^(?:0(?:2|3|4|8|9))(?:-?\d){8}$|^(0(?:-?\d){9})$/;
-
-                let OK = mobile.exec(y);
-                // let OKL = lendPhone.exec(y);
-                
+                    console.log(x);
+                    const mobile = /^(?:0(?!5)(?:2|3|4|8|9))(?:-?\d){7}$|^(0(?=5)(?:-?\d){9})$/;
+                    // const lendPhone = /^(?:0(?:2|3|4|8|9))(?:-?\d){8}$|^(0(?:-?\d){9})$/;
+                   
+                    console.log(x[0]);
+                    
+                    let OK = mobile.exec(x[0]);
+                    // let OKL = lendPhone.exec(y);
+                    
                 if(OK == null){return}
                 
                 
